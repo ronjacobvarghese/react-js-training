@@ -1,0 +1,53 @@
+.comment-wrapper{
+    width:50%;
+    background-color:#2a2f32;
+    padding:25px;
+    display:flex;
+    justify-content:space-between;
+    border-radius:8px;
+    color:rgba(245, 245, 245, 0.562);
+    overflow: hidden;
+    font-size:20px;
+}
+.text-wrapper{
+    display:flex;
+    flex-direction: column;
+}
+.name-wrapper{
+    position:absolute;
+    right:30px;
+}
+.icon-button{
+    transition:filter 300ms;
+    color:rgba(245, 245, 245, 0.562);
+}
+.icon-button:hover{
+    filter:brightness(1.2);
+}
+.extra_item{
+    list-style:none;
+}
+.dropdown{
+    position:absolute;
+    background-color:#242526;
+    width:150px;
+    left:46%;
+    border-radius:8px;
+    top:50px;
+    transform:translateX(-45%);
+}
+.sub-item:hover{
+    background-color:#525357;
+}
+.sub-item{
+    display:block;
+    padding:10px;
+}
+.trash{
+    padding-right:10px;
+}
+p{
+    padding:0;
+    margin:0;
+    border:0;
+}

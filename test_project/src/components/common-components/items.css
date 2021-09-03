@@ -1,0 +1,22 @@
+
+.Icon-wrapper{
+    position:relative;
+}
+.Items-wrapper label{
+    font-size:10px;
+    color:white;
+}
+.Items-wrapper:hover label{
+    color:blue;
+
+}
+.Items-wrapper i{
+    visibility:hidden;
+}
+
+.active{
+    visibility:visible !important;
+}
+.icon{
+    position:absolute;
+}
