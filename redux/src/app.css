@@ -1,0 +1,12 @@
+.nav{
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+.nav button{
+  height:2rem;
+  width:2rem;
+}
+.nav .green{
+  background-color: green;
+}
